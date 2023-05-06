@@ -16,3 +16,4 @@ spring:
 logging:
   level:
     org.hibernate.SQL: debug #hibernate가 생성하는 sql이 다 log로 남음
+    org.hibernate.type: trace # Transaction을 log로 찍어줌
